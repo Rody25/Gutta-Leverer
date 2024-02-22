@@ -5,6 +5,11 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+.container {
+  width: 100%;
+}
+
 body {
   font-family: montserrat;
 }
@@ -129,12 +134,20 @@ section {
 }
 
 .card-body {
-  background-color: rgb(27, 214, 27);
+  background-color: rgb(14, 151, 9);
   height: 80px;
 }
 
-.card-body:nth-child(1) {
-  background: #ac0bb4;
+.card-body1 {
+  background-color: #cc0d0d;
+  height: 80px;
+  padding: 15px;
+}
+
+.card-body2 {
+  background-color: #0d10cc;
+  height: 80px;
+  padding: 15px;
 }
 
 * {
@@ -150,7 +163,7 @@ body {
 }
 
 .footer {
-  padding: 40px 0;
+  padding: auto;
   margin-top: 100px;
   background-color: rgb(226, 228, 235);
 }
