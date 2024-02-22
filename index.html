@@ -2,94 +2,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatiable" content="IE-edge" />
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Guttaleverer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="site.css" rel="stylesheet" />
   </head>
+
   <body>
-    <section class="menu">
-      <div class="nav">
-        <div class="logo">
-          <h1>Food<b>io</b></h1>
-        </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Gallery</a></li>
-        </ul>
-        <div>
-          <input class="signin" type="submit" value="Sign In" name="signin" />
-          <input class="signup" type="submit" value="Sign Up" name="signup" />
-        </div>
-      </div>
-    </section>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <label class="logo">Guttaleverer</label>
+      <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="...">Bestille</a></li>
+        <li><a href="...">Kontakt oss</a></li>
+        <li><a href="Personvern.html">Personvern</a></li>
+      </ul>
+    </nav>
 
     <div class="container text-center py-4">
+      <form
+        action="http://www.google.com/search"
+        method="get"
+        class="search-bar"
+      >
+        <input type="text" placeholder="search anything" name="q" />
+        <button type="submit"><img src="search.png" alt="" /></button>
+      </form>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4">
           <div class="card">
-            <img src="last ned.jpg" class="card-img-top" alt="..." />
+            <img src="Kiwi.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Sort genser</h5>
-              <p class="card-text">500 kr</p>
-              <a href="clothes.html" class="btn btn-primary">Se produkt</a>
+              <a href="Kiwi.html" class="btn btn-primary">Se produkt</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-4">
           <div class="card">
-            <img src="grønn.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Grønn genser</h5>
-              <p class="card-text">700kr</p>
-              <a href="clothes.html" class="btn btn-primary">Se produkt</a>
+            <img src="Meny.png" class="card-img-top" alt="..." />
+            <div class="card-body1">
+              <a href="Meny.html" class="btn btn-primary">Se produkt</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-4">
           <div class="card">
-            <img src="rød.jpg" class="card-img-top" alt="bilde" />
-            <div class="card-body">
-              <h5 class="card-title">Rød genser</h5>
-              <p class="card-text">900kr</p>
-              <a href="clothes.html" class="btn btn-primary">Se produkt</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <div class="card">
-            <img src="grå.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Grå turtleneck</h5>
-              <p class="card-text">400kr</p>
-              <a href="clothes.html" class="btn btn-primary">Se produkt</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <div class="card">
-            <img src="ball.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Ball turtleneck</h5>
-              <p class="card-text">600kr</p>
-              <a href="clothes.html" class="btn btn-primary">Se produkt</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <div class="card">
-            <img src="striper.jpg" class="card-img-top" alt="bilde" />
-            <div class="card-body">
-              <h5 class="card-title">Hvit turtleneck</h5>
-              <p class="card-text">800kr</p>
-              <a href="clothes.html" class="btn btn-primary">Se produkt</a>
+            <img src="Rema1000.png" class="card-img-top" alt="bilde" />
+            <div class="card-body2">
+              <a href="Rema1000.html" class="btn btn-primary">Se produkt</a>
             </div>
           </div>
         </div>
@@ -107,8 +82,31 @@
               <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
           </div>
+          <div class="col-12 col-md-6">
+            <ul class="list">
+              <li>
+                <a href="about.html">Om oss</a>
+              </li>
+              <li>
+                <a href="...">Butikker</a>
+              </li>
+              <li>
+                <a href="kontakt.html">Få hjelp</a>
+              </li>
+              <li>
+                <a href="...">Vilkår</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+
