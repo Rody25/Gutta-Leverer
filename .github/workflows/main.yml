@@ -1,12 +1,8 @@
-# This is a basic workflow to start
-
-name: CI
-
-# Controls when the action will run.
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+firebaseConfig:
+  apiKey: "AIzaSyA8Uz0Sv_xfKZGk1P0UaY9yvsWzs4FB5OU"
+  authDomain: "app---2000.firebaseapp.com"
+  projectId: "app---2000"
+  storageBucket: "app---2000.appspot.com"
+  messagingSenderId: "555263014352"
+  appId: "1:555263014352:web:2f76ce537f26b39d5eb5d5"
+  measurementId: "G-HKTTS3T0PD"
