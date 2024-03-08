@@ -13,7 +13,7 @@ jobs:
       with:
         node-version: '21.6.2' # Use the node version that matches your project
     - run: npm install
-    - run: npm run build # Remove or modify if your project doesn't need a build step
+    - run: npm run build # den kan vi fjerne om vi ikke bruker npm i prosjektet 
     - uses: w9jds/firebase-action@master
       with:
         args: deploy --only hosting
