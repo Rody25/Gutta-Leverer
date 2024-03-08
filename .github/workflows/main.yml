@@ -1,8 +1,32 @@
-firebaseConfig:
-  apiKey: "AIzaSyA8Uz0Sv_xfKZGk1P0UaY9yvsWzs4FB5OU"
-  authDomain: "app---2000.firebaseapp.com"
-  projectId: "app---2000"
-  storageBucket: "app---2000.appspot.com"
-  messagingSenderId: "555263014352"
-  appId: "1:555263014352:web:2f76ce537f26b39d5eb5d5"
-  measurementId: "G-HKTTS3T0PD"
+name: Firebase CI/CD Workflow
+
+on:
+  push:
+    branches:
+      - main  # Triggers the workflow on push events to the main branch
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest  # The type of runner that the job will run on
+
+    steps:
+      - uses: actions/checkout@v2  # Checks out your repository under $GITHUB_WORKSPACE, so your job can access it
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Specify the Node.js version you need for your project
+
+      - name: Install Dependencies
+        run: npm install  # Installs dependencies defined in package.json
+
+      - name: Build
+        run: npm run build  # Replace with your build command
+
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy  # Deploys your project to Firebase
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}  # Ensure you have set the FIREBASE_TOKEN secret in your repository settings
+
