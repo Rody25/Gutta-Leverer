@@ -14,9 +14,21 @@ body {
   font-family: montserrat;
 }
 nav {
-  background: #0082e6;
+  background: #00e6db;
   height: 80px;
   width: 100%;
+}
+
+.nav1 {
+  background: #cc1a0d;
+}
+
+.nav2 {
+  background-color: #0d10cc;
+}
+
+.nav3 {
+  background-color: #00e60c;
 }
 
 label.logo {
@@ -115,6 +127,10 @@ section {
   background-color: rgb(0, 7, 0);
 }
 
+.btn-meny {
+  background-color: #ffffff;
+}
+
 .btn-primary:hover {
   background-color: rgb(93, 207, 93);
 }
@@ -126,11 +142,22 @@ section {
   padding: 10px 0;
 }
 
+.rows {
+  margin-left: 450px;
+}
+
 .card {
   margin-top: 100px;
   background-color: rgb(8, 8, 8);
   height: auto;
   width: auto;
+}
+
+.card1 {
+  margin-top: 100px;
+  background-color: rgb(8, 8, 8);
+  height: auto;
+  width: 1000px;
 }
 
 .card-body {
@@ -148,6 +175,12 @@ section {
   background-color: #0d10cc;
   height: 80px;
   padding: 15px;
+}
+
+.Meny-body {
+  background-color: aliceblue;
+  height: 50px;
+  text-align: center;
 }
 
 * {
