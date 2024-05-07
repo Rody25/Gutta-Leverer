@@ -22,7 +22,7 @@
                         <img src="https://banner2.cleanpng.com/20180705/lhh/kisspng-computer-icons-icon-design-magnifying-glass-clip-a-5b3de3ce2ab8c8.713829551530782670175.jpg"
                             class="magnifying-glass-icon" alt="">
                     </div> -->
-                    HJEM
+                    <div>HJEM</div>
                 </a>
                 <a href="index.php" class="meny-link-icon">BESTILLE</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
@@ -35,16 +35,15 @@
     <main>
         <div class="wrapper wrapper-main">
             <div class="varer-r">
-
                 <div class="varer-container">
-
-                    <img src="bilder/skinke.jpg" alt="" onclick="openPopup()" class="r-image">
+                    <img src="bilder/fanta.png" alt="" onclick="openPopup()" class="r-image">
                     <div class="popup" id="popup">
-                        <h3>Skinke</h3>
-                        <p>110g</p>
-                        <img src="bilder/skinke.jpg" alt="">
+                        <h3>Fanta
+                        </h3>
+                        <p>500ml</p>
+                        <img src="bilder/fanta.png" alt="">
 
-                        <p>23,50kr</p>
+                        <p>24,50kr</p>
                         <a class="cart-button" href="Login.php">
 
                             <i class="fas fa-shopping-cart cart-icon"> </i>
@@ -52,8 +51,33 @@
                         </a>
                         <button type="button" onclick="closePopup()" class="knapp">Avslutt</button>
                     </div>
-                    <h3 class="text-tag1">Skinke</h3>
+                    <h3 class="text-tag1">Fanta</h3>
+                    <h3 class="text-tag1">Pris 24,50kr</h3>
+                    <a class="cart-button" href="Login.php">
 
+                        <i class="fas fa-shopping-cart cart-icon"> </i>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="varer-r">
+                <div class="varer-container">
+                    <img src="bilder/cola.png" alt="" class="r-image">
+                    <div class="popup" id="popup1">
+                        <h3>Coca Cola</h3>
+                        <p>500ml</p>
+                        <img src="bilder/cola.png" alt="">
+                        <p>25,50kr</p>
+                        <a class="cart-button" href="Login.php">
+
+                            <i class="fas fa-shopping-cart cart-icon"> </i>
+
+                        </a>
+
+                        <button type="button" onclick="closePopup1()" class="knapp">Avslutt</button>
+                    </div>
+                    <h3 class="text-tag1">Cola Zero</h3>
                     <h3 class="text-tag1">Pris 23,50kr</h3>
                     <a class="cart-button" href="Login.php">
 
@@ -65,12 +89,11 @@
 
             <div class="varer-r">
                 <div class="varer-container">
-
-                    <img src="bilder/krydret skinke.jpg" alt="" onclick="openPopup1()" class="r-image">
+                    <img src="bilder/urge.png" alt="" class="r-image">
                     <div class="popup" id="popup1">
-                        <h3>Krydret Skinke</h3>
-                        <p>110g</p>
-                        <img src="bilder/krydret skinke.jpg" alt="">
+                        <h3>Coca Cola</h3>
+                        <p>500ml</p>
+                        <img src="bilder/cola.png" alt="">
                         <p>25,50kr</p>
                         <a class="cart-button" href="Login.php">
 
@@ -80,35 +103,9 @@
 
                         <button type="button" onclick="closePopup1()" class="knapp">Avslutt</button>
                     </div>
-                    <h3 class="text-tag1">Krydret Skinke</h3>
-
-                    <h3 class="text-tag1">Pris 25,50kr</h3>
-                    <a class="cart-button" href="handleL.php">
-
-                        <i class="fas fa-shopping-cart cart-icon"> </i>
-
-                    </a>
-                </div>
-            </div>
-
-            <div class="varer-r">
-                <div class="varer-container">
-                    <img src="bilder/hamburgerrygg.jpg" alt="" onclick="openPopup2()" class="r-image">
-                    <div class="popup" id="popup2">
-                        <h3>Hamburgerrygg</h3>
-                        <p>110g</p>
-                        <img src="bilder/hamburgerrygg.jpg" alt="">
-                        <p>25,10kr</p>
-                        <a class="cart-button" href="Login.php">
-
-                            <i class="fas fa-shopping-cart cart-icon"> </i>
-
-                        </a>
-                        <button type="button" onclick="closePopup2()" class="knapp">Avslutt</button>
-                    </div>
-                    <h3 class="text-tag1">Hamburgerrygg</h3>
-                    <h3 class="text-tag1">Pris 25,10kr</h3>
-                    <a class="cart-button" href="handleL.php">
+                    <h3 class="text-tag1">Urge</h3>
+                    <h3 class="text-tag1">Pris 23,50kr</h3>
+                    <a class="cart-button" href="Login.php">
 
                         <i class="fas fa-shopping-cart cart-icon"> </i>
 
@@ -118,22 +115,23 @@
 
             <div class="varer-r">
                 <div class="varer-container">
-                    <img src="bilder/salami.jpg" alt="" onclick="openPopup3()" class="r-image">
-                    <div class="popup" id="popup3">
-                        <h3>Salami</h3>
-                        <p>110g</p>
-                        <img src="bilder/salami.jpg" alt="">
-                        <p>20,50kr</p>
+                    <img src="bilder/Imsdal.png" alt="" class="r-image">
+                    <div class="popup" id="popup1">
+                        <h3>Coca Cola</h3>
+                        <p>500ml</p>
+                        <img src="bilder/cola.png" alt="">
+                        <p>25,50kr</p>
                         <a class="cart-button" href="Login.php">
 
                             <i class="fas fa-shopping-cart cart-icon"> </i>
 
                         </a>
-                        <button type="button" onclick="closePopup3()" class="knapp">Avslutt</button>
+
+                        <button type="button" onclick="closePopup1()" class="knapp">Avslutt</button>
                     </div>
-                    <h3 class="text-tag1">Salami</h3>
-                    <h3 class="text-tag1">Pris 20,50kr</h3>
-                    <a class="cart-button" href="handleL.php">
+                    <h3 class="text-tag1">Imsdal</h3>
+                    <h3 class="text-tag1">Pris 23,50kr</h3>
+                    <a class="cart-button" href="Login.php">
 
                         <i class="fas fa-shopping-cart cart-icon"> </i>
 
@@ -143,22 +141,23 @@
 
             <div class="varer-r">
                 <div class="varer-container">
-                    <img src="bilder/hestp.jpg" alt="" onclick="openPopup4()" class="r-image">
-                    <div class="popup" id="popup4">
-                        <h3>Svartpølse</h3>
-                        <p>110g</p>
-                        <img src="bilder/hestp.jpg" alt="" class="r-image">
-                        <p>27,10kr</p>
+                    <img src="bilder/juice.png" alt="" class="r-image">
+                    <div class="popup" id="popup1">
+                        <h3>Coca Cola</h3>
+                        <p>500ml</p>
+                        <img src="bilder/cola.png" alt="">
+                        <p>25,50kr</p>
                         <a class="cart-button" href="Login.php">
 
                             <i class="fas fa-shopping-cart cart-icon"> </i>
 
                         </a>
-                        <button type="button" onclick="closePopup4()" class="knapp">Avslutt</button>
+
+                        <button type="button" onclick="closePopup1()" class="knapp">Avslutt</button>
                     </div>
-                    <h3 class="text-tag1">Svartpølse</h3>
-                    <h3 class="text-tag1">Pris 27,10kr</h3>
-                    <a class="cart-button" href="handleL.php">
+                    <h3 class="text-tag1">Juice</h3>
+                    <h3 class="text-tag1">Pris 23,50kr</h3>
+                    <a class="cart-button" href="Login.php">
 
                         <i class="fas fa-shopping-cart cart-icon"> </i>
 
@@ -168,22 +167,23 @@
 
             <div class="varer-r">
                 <div class="varer-container">
-                    <img src="bilder/spekeskinke.jpg" alt="" onclick="openPopup5()" class="r-image">
-                    <div class="popup" id="popup5">
-                        <h3>Spekeskinke</h3>
-                        <p>110g</p>
-                        <img src="bilder/spekeskinke.jpg" alt="" class="r-image">
-                        <p>30,50kr</p>
+                    <img src="bilder/battery.png" alt="" class="r-image">
+                    <div class="popup" id="popup1">
+                        <h3>Coca Cola</h3>
+                        <p>500ml</p>
+                        <img src="bilder/cola.png" alt="">
+                        <p>25,50kr</p>
                         <a class="cart-button" href="Login.php">
 
                             <i class="fas fa-shopping-cart cart-icon"> </i>
 
                         </a>
-                        <button type="button" onclick="closePopup5()" class="knapp">Avslutt</button>
+
+                        <button type="button" onclick="closePopup1()" class="knapp">Avslutt</button>
                     </div>
-                    <h3 class="text-tag1">Spekeskinke</h3>
-                    <h3 class="text-tag1">Pris 30,50kr</h3>
-                    <a class="cart-button" href="handleL.php">
+                    <h3 class="text-tag1">Battery</h3>
+                    <h3 class="text-tag1">Pris 23,50kr</h3>
+                    <a class="cart-button" href="Login.php">
 
                         <i class="fas fa-shopping-cart cart-icon"> </i>
 
@@ -192,6 +192,9 @@
             </div>
 
         </div>
+
+
+
 
         <script>
         let popup = document.getElementById("popup")
@@ -273,8 +276,6 @@
 
         }
         </script>
-
-
 
     </main>
 

@@ -19,7 +19,7 @@
                 <a href="index.php" class="link">HJEM</a>
                 <a href="" class="link">BESTILLE</a>
                 <a href="kontakt oss.php" class="link">KONTAKT OSS</a>
-                <a href="" class="link">PERSONVERN</a>
+                <a href=personvern.php class="link">PERSONVERN</a>
             </nav>
         </div>
     </header>
@@ -71,7 +71,7 @@
                 <a href="about.php">Om oss</a>
                 <a href="butikker.php">Butikker</a>
                 <a href="">Få hjelp</a>
-                <a href="">Vilkår</a>
+                <a href="handleL.php">Vilkår</a>
             </section>
         </div>
     </footer>

@@ -25,7 +25,7 @@
                 </a>
                 <a href="index.php" class="meny-link-icon">BESTILLE</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
-                <a href="#" class="meny-link-icon">PERSONVERN</a>
+                <a href=personvern.php class="meny-link-icon">PERSONVERN</a>
             </div>
 
         </div>
@@ -35,122 +35,86 @@
 
 
 
-            <div class="varer-r">
+            <main>
+                <div class="wrapper wrapper-main">
+                    <div class="varer-r">
+                        <div class="varerR-container">
+                            <img src="bilder/baguett.png" alt="" class="r-image">
+                            <h3 class="text-tag1">Baguette</h3>
+                            <h3 class="text-tag1">Pris 23,50kr</h3>
+                            <a href="..." class="r-link"> Legg til:</a>
+                        </div>
+                    </div>
 
-                <h1 class="text-tag1">Kjøtt</h1>
+                    <div class="varer-r">
+                        <div class="varerR-container">
+                            <img src="bilder/boller.jpg" alt="" class="r-image">
+                            <h3 class="text-tag1">Boller</h3>
+                            <h3 class="text-tag1">Pris 23,50kr</h3>
+                            <a href="..." class="r-link"> Legg til:</a>
+                        </div>
+                    </div>
 
+                    <div class="varer-r">
+                        <div class="varerR-container">
+                            <img src="bilder/Grundstykker.png" alt="" class="r-image">
+                            <h3 class="text-tag1">Glutenfri rundstykker</h3>
+                            <h3 class="text-tag1">Pris 23,50kr</h3>
+                            <a href="..." class="r-link"> Legg til:</a>
+                        </div>
+                    </div>
 
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
+                    <div class="varer-r">
+                        <div class="varerR-container">
+                            <img src="bilder/rundstykker.jpg" alt="" class="r-image">
+                            <h3 class="text-tag1">Rundstykker</h3>
+                            <h3 class="text-tag1">Pris 23,50kr</h3>
+                            <a href="..." class="r-link"> Legg til:</a>
+                        </div>
+                    </div>
+
+                    <div class="varer-r">
+                        <div class="varerR-container">
+                            <img src="bilder/lefser.png" alt="" class="r-image">
+                            <h3 class="text-tag1">Lefser</h3>
+                            <h3 class="text-tag1">Pris 23,50kr</h3>
+                            <a href="..." class="r-link"> Legg til:</a>
+                        </div>
+                    </div>
+
+                    <div class="varer-r">
+                        <div class="varerR-container">
+                            <img src="bilder/crossaint.jpg" alt="" class="r-image">
+                            <h3 class="text-tag1">Crossaint</h3>
+                            <h3 class="text-tag1">Pris 23,50kr</h3>
+                            <a href="..." class="r-link"> Legg til:</a>
+                        </div>
+                    </div>
+
                 </div>
-                <a href="..." class="r-link"> Legg til:</a>
 
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
+
+
+            </main>
+
+
+            <footer class="rema-footer">
+                <div class="wrapper">
+                    <section>
+                        <div class="footer-icon"></div>
+                        <div class="footer-icon"></div>
+                        <div class="footer-icon"></div>
+                        <div class="footer-icon"></div>
+                    </section>
+
+                    <section>
+                        <a href="about.php">Om oss</a>
+                        <a href=butikker.php>Butikker</a>
+                        <a href="kontakt.php">Få hjelp</a>
+                        <a href="">Vilkår</a>
+                    </section>
                 </div>
-                <a href="..." class="r-link"> Legg til:</a>
-
-
-            </div>
-
-
-            <!-- <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div>
-
-            <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div>
-
-            <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div>
-
-            <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div>
-
-            <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div>
-
-            <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div>
-
-            <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div>
-                <a href="..." class="r-link"> Legg til:</a>
-            </div> -->
-
-            <!-- <div class="varer-r">
-                <div class="r">
-                    <img src="bilder/Epler.jpg" alt="" class="r-image">
-                </div> -->
-
-            <!-- <div class="items-container">
-                <ul class="btn">
-                    <li><a href="about.php" class="btn-1">Legg til:</a></li>
-                    <li><a href="about.php" class="btn-1">Legg til:</a></li>
-                </ul>
-
-
-            </div>
-            <div class="varer-image-container">
-    
-            </div>
-            <div class="items-container">
-                <ul class="btn">
-                    <li><a href="about.php" class="btn-1">Legg til:</a></li>
-                    <li><a href="about.php" class="btn-1">Legg til:</a></li>
-                </ul>
-
-
-            </div> -->
-
-        </div>
-
-
-
-    </main>
-
-    <footer class="rema-footer">
-        <div class="wrapper">
-            <section>
-                <div class="footer-icon"></div>
-                <div class="footer-icon"></div>
-                <div class="footer-icon"></div>
-                <div class="footer-icon"></div>
-            </section>
-
-            <section>
-                <a href="about.php">Om oss</a>
-                <a href=butikker.php>Butikker</a>
-                <a href="kontakt.php">Få hjelp</a>
-                <a href="">Vilkår</a>
-            </section>
-        </div>
-    </footer>
+            </footer>
 
 
 </body>

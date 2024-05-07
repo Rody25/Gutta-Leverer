@@ -25,7 +25,7 @@
                 </a>
                 <a href="index.php" class="meny-link-icon">BESTILLE</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
-                <a href="#" class="meny-link-icon">PERSONVERN</a>
+                <a href=personvern.php class="meny-link-icon">PERSONVERN</a>
             </div>
 
         </div>
@@ -34,36 +34,36 @@
     <main>
         <div class="wrapper wrapper-main">
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Frukt og grønnsaker.jpg" alt="">
+                <img class="main-logo-container__image" src="bilder/kjøtt.png" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Kjøtt</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerK.php">Kjøtt</a>
             <div class="card-image-container">
                 <img class="main-logo-container__image" src="bilder/Drikke.jpg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Drikker</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerKd.php">Drikker</a>
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Gitems.webp" alt="">
+                <img class="main-logo-container__image" src="bilder/Meieri.jpg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php"> Meieriprodukter og frukt
-                annet</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerKm.php"> Meieriprodukter
+            </a>
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Frukt og grønnsaker.jpg" alt="">
+                <img class="main-logo-container__image" src="bilder/bakevarer.jpg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Bakevarer</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerKb.php">Bakevarer</a>
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Frukt og grønnsaker.jpg" alt="">
+                <img class="main-logo-container__image" src="bilder/godteri.jpg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Godteri</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerKg.php">Godteri</a>
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Frukt og grønnsaker.jpg" alt="">
+                <img class="main-logo-container__image" src="bilder/annet.jpeg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Annet</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerKa.php">Annet</a>
 
         </div>
     </main>
 
 
-    <footer>
+    <footer class="kiwi-footer">
         <div class="wrapper">
             <section>
                 <div class="footer-icon"></div>

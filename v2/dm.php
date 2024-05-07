@@ -25,7 +25,7 @@
                 </a>
                 <a href="index.php" class="meny-link-icon">BESTILLE</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
-                <a href="#" class="meny-link-icon">PERSONVERN</a>
+                <a href=personvern.php class="meny-link-icon">PERSONVERN</a>
             </div>
 
         </div>
@@ -34,17 +34,30 @@
     <main>
         <div class="wrapper wrapper-main">
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Frukt og grønnsaker.jpg" alt="">
+                <img class="main-logo-container__image" src="bilder/kjøtt.png" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerM.php">Mat varer</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerM.php">Kjøtt</a>
             <div class="card-image-container">
                 <img class="main-logo-container__image" src="bilder/Drikke.jpg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Drikke</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerMd.php">Drikker</a>
             <div class="card-image-container">
-                <img class="main-logo-container__image" src="bilder/Gitems.webp" alt="">
+                <img class="main-logo-container__image" src="bilder/Meieri.jpg" alt="">
             </div>
-            <a style="margin-top: -100px; font-size: 2rem; color: white" href="VarerK.php">Andre varer</a>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerMm.php"> Meieriprodukter
+            </a>
+            <div class="card-image-container">
+                <img class="main-logo-container__image" src="bilder/bakevarer.jpg" alt="">
+            </div>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerMb.php">Bakevarer</a>
+            <div class="card-image-container">
+                <img class="main-logo-container__image" src="bilder/godteri.jpg" alt="">
+            </div>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerMg.php">Godteri</a>
+            <div class="card-image-container">
+                <img class="main-logo-container__image" src="bilder/annet.jpeg" alt="">
+            </div>
+            <a style="margin-top: -100px; font-size: 4rem; color: white" href="VarerMa.php">Annet</a>
 
         </div>
     </main>
