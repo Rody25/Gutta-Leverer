@@ -1,0 +1,140 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27"); */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(35, 107, 7);
+}
+
+.wrapper {
+  width: 1600px;
+  max-width: 1600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .text-box {
+  background-color: aqua;
+  justify-content: center;
+  display: flex;
+}
+
+.text-container {
+  /* background-color: black; */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 200px;
+}
+
+.logo {
+  width: 100%;
+  color: white;
+}
+
+header nav .link {
+  padding: 12px 20px;
+  color: white;
+}
+
+header nav .link:hover {
+  color: black;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-item {
+  width: 20%;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-item:nth-child(1) {
+  background-color: rgba(80, 184, 72, 0.8);
+}
+
+.card-item:nth-child(2) {
+  background-color: rgba(198, 13, 44, 0.8);
+  color: white;
+}
+
+.card-item:nth-child(3) {
+  background-color: rgba(4, 61, 168, 0.8);
+}
+
+.card-item__image-container {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item__image {
+  width: 100%;
+}
+
+.card-item__link {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: 100ms ease;
+}
+.card-item__link:hover {
+  background-color: rgb(215, 215, 215);
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  background-color: rgb(35, 107, 7);
+}
+
+footer a {
+  padding: 12px 20px;
+  color: white;
+}
+
+footer a:hover {
+  color: black;
+}
