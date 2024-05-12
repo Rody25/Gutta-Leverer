@@ -22,7 +22,7 @@
 
 
                 <a href="index.php" class="meny-link-icon">HJEM</a>
-                <a href="index.php" class="meny-link-icon">BESTILLE</a>
+                <a href="Login.php" class="meny-link-icon">LOGG INN</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
                 <a href="personvern.php" class="meny-link-icon">PERSONVERN</a>
             </div>
@@ -38,16 +38,16 @@
             </div>
 
             <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Bruker ID" required>
+                <input type="text" class="input-field" placeholder="Epost" required>
                 <input type="text" class="input-field" placeholder="Skriv passord" required>
                 <input type="checkbox" class="chech-box"><span>Husk Passord</span>
-                <button type="submit" class="submit-btn">Log in</button>
+                <button type="submit" class="submit-btn">Logg inn</button>
             </form>
 
             <form id="registrer" class="input-group">
-                <input type="text" class="input-field" placeholder="Bruker ID" required>
-                <input type="email" class="input-field" placeholder="Email ID" required>
-                <input type="text" class="input-field" placeholder="Skriv passord" required>
+                <input type="text" class="input-field" placeholder="Fult navn" required>
+                <input type="email" class="input-field" placeholder="Epost" required>
+                <input type="text" class="input-field" placeholder="Lag passord" required>
                 <input type="text" class="input-field" placeholder="Adresse" required>
                 <input type="checkbox" class="chech-box"><span>Enig i terms</span>
                 <button type="submit" class="submit-btn">Registrer</button>
@@ -96,8 +96,8 @@
             <section>
                 <a href="about.php">Om oss</a>
                 <a href="butikker.php">Butikker</a>
-                <a href="kontakt.php">Få hjelp</a>
-                <a href="">Vilkår</a>
+                <a href="kontakt oss.php">Kontakt oss</a>
+                <a href="Vilkår.php">Vilkår</a>
             </section>
         </div>
     </footer>

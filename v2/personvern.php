@@ -17,21 +17,14 @@
             </div>
             <div class="meny-link-icon-container">
 
-                <!-- <div>
-                        <img src="https://banner2.cleanpng.com/20180705/lhh/kisspng-computer-icons-icon-design-magnifying-glass-clip-a-5b3de3ce2ab8c8.713829551530782670175.jpg"
-                            class="magnifying-glass-icon" alt="">
-                    </div> -->
-                <!-- <div>HJEM</div> -->
+
 
                 <a href="index.php" class="meny-link-icon">HJEM</a>
-                <a href="index.php" class="meny-link-icon">BESTILLE</a>
+                <a href="Login.php" class="meny-link-icon">LOGG INN</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
                 <a href=personvern.php class="meny-link-icon">PERSONVERN</a>
             </div>
-            <!-- <div class="search-icon-container">
-                <img src="https://banner2.cleanpng.com/20180705/lhh/kisspng-computer-icons-icon-design-magnifying-glass-clip-a-5b3de3ce2ab8c8.713829551530782670175.jpg"
-                    class="magnifying-glass-icon" alt="">
-            </div> -->
+
         </div>
     </header>
 
@@ -107,8 +100,8 @@
             <section>
                 <a href="about.php">Om oss</a>
                 <a href="butikker.php">Butikker</a>
-                <a href="kontakt.php">Få hjelp</a>
-                <a href="">Vilkår</a>
+                <a href="kontakt oss.php">Kontakt oss</a>
+                <a href="Vilkår.php">Vilkår</a>
             </section>
         </div>
     </footer>

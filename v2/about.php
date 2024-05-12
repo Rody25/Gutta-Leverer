@@ -17,21 +17,14 @@
             </div>
             <div class="meny-link-icon-container">
 
-                <!-- <div>
-                        <img src="https://banner2.cleanpng.com/20180705/lhh/kisspng-computer-icons-icon-design-magnifying-glass-clip-a-5b3de3ce2ab8c8.713829551530782670175.jpg"
-                            class="magnifying-glass-icon" alt="">
-                    </div> -->
-                <!-- <div>HJEM</div> -->
+
 
                 <a href="index.php" class="meny-link-icon">HJEM</a>
-                <a href="index.php" class="meny-link-icon">BESTILLE</a>
+                <a href="Login.php" class="meny-link-icon">LOGG INN</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
                 <a href="personvern.php" class="meny-link-icon">PERSONVERN</a>
             </div>
-            <!-- <div class="search-icon-container">
-                <img src="https://banner2.cleanpng.com/20180705/lhh/kisspng-computer-icons-icon-design-magnifying-glass-clip-a-5b3de3ce2ab8c8.713829551530782670175.jpg"
-                    class="magnifying-glass-icon" alt="">
-            </div> -->
+
         </div>
     </header>
 
@@ -96,8 +89,8 @@
             <section>
                 <a href="about.php">Om oss</a>
                 <a href="butikker.php">Butikker</a>
-                <a href="kontakt.php">Få hjelp</a>
-                <a href="">Vilkår</a>
+                <a href="kontakt oss.php">Få hjelp</a>
+                <a href="Vilkår.php">Vilkår</a>
             </section>
         </div>
     </footer>
@@ -105,48 +98,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="stiler/kstyles.css" />
-</head>
-
-<body>
-    <header>
-        <div class="wrapper">
-            <div class="logo-container">
-                <h3 class="logo">Guttaleverer</h3>
-            </div>
-            <nav>
-                <a href="index.php" class="link">HJEM</a>
-                <a href="" class="link">BESTILLE</a>
-                <a href="" class="link">KONTAKT OSS</a>
-                <a href="" class="link">PERSONVERN</a>
-            </nav>
-        </div>
-    </header>
-
-    <main class="wrapper text-box">
-        <div class="text-container">
-            <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga omnis praesentium quam ipsum tenetur,
-                explicabo obcaecati natus sint voluptates dolorem sed, reprehenderit est eveniet fugit tempora!
-                Doloremque
-                provident aut quaerat?
-            </h3>
-        </div>
-    </main>
-
-</body>
-
-</html> -->

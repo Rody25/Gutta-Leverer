@@ -24,7 +24,7 @@
                 <!-- <div>HJEM</div> -->
 
                 <a href="index.php" class="meny-link-icon">HJEM</a>
-                <a href="index.php" class="meny-link-icon">BESTILLE</a>
+                 <a href="Login.php" class="meny-link-icon">LOGG INN</a>
                 <a href="kontakt oss.php" class="meny-link-icon">KONTAKT OSS</a>
                 <a href=personvern.php class="meny-link-icon">PERSONVERN</a>
             </div>
@@ -126,8 +126,8 @@
             <section>
                 <a href="about.php">Om oss</a>
                 <a href="butikker.php">Butikker</a>
-                <a href="kontakt.php">Få hjelp</a>
-                <a href="">Vilkår</a>
+                <a href="kontakt oss.php">Kontakt oss</a>
+                <a href="Vilkår.php">Vilkår</a>
             </section>
         </div>
     </footer>
